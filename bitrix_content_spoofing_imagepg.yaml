@@ -17,7 +17,7 @@ info:
 http:
   - method: GET
     path:
-      - '{{BaseURL}}/bitrix/tools/imagepg.php?img=//e7.pngegg.com/pngimages/542/350/png-clipart-mr-robot-season-3-rami-malek-infinity-tv-hacking-others-face-head-thumbnail.png'
+      - '{{BaseURL}}/bitrix/tools/imagepg.php?img=//metascan.ru/assets/images/logo.svg'
 
     stop-at-first-match: true
     matchers-condition: and
@@ -31,7 +31,7 @@ http:
       - type: word
         part: body
         words:
-          - 'img src="//e7.pngegg.com/pngimages/542/350/png-clipart-mr-robot-season-3-rami-malek-infinity-tv-hacking-others-face-head-thumbnail.png"'
+          - 'img src="//metascan.ru/assets/images/logo.svg"'
 
       - type: status
         status:
