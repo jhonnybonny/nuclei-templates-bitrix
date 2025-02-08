@@ -1,10 +1,10 @@
-id: "Bitrix_check_env_file"
+id: "Bitrix_check_log_laravel_file"
 
 info:
-  name: Bitrix check .env file existence
+  name: Bitrix check log laravel file 
   author: JhonnyBonny
   severity: high
-  description: Check if the .env file exists on the website.
+  description: Bitrix check log laravel file 
   reference:
     - https://github.com/cr1f/writeups/blob/main/attacking_bitrix.pdf
   classification:
@@ -15,7 +15,9 @@ info:
 http:
   - method: GET
     path:
-      - '{{BaseURL}}/.env'
+      - '{{BaseURL}}/log.txt'
+      - '{{BaseURL}}/log.log'
+      - '{{BaseURL}}/__bx_log.log'
 
     matchers-condition: and
     matchers:

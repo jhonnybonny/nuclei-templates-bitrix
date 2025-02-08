@@ -2,7 +2,7 @@ id: bitrix-login-panel
 
 info:
   name: Bitrix Login Panel
-  author: crth0
+  author: JhonnyBonny
   severity: info
   description: Bitrix login Panel.
   classification:

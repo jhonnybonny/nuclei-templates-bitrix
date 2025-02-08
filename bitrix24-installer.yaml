@@ -2,7 +2,7 @@ id: bitrix24-installer
 
 info:
   name: Bitrix24 Installation Exposure
-  author: crth0
+  author: JhonnyBonny
   severity: high
   description: Bitrix24 is susceptible to the Installation page exposure due to misconfiguration.
   metadata:

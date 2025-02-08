@@ -2,7 +2,7 @@ id: "bitrix_content_spoofing_ajax"
 
 info:
   name: Bitrix24 <=20.0.0 - ajax.php content spoofing 
-  author: crth0
+  author: JhonnyBonny
   severity: medium
   description: The Web Application Firewall in Bitrix24 up to and including 20.0.0 allows Content Spoofing via the items[1][TITLE],ITEMS[1][DETAIL_LINK] parameters to the components/bitrix/mobileapp.list/ajax.php URI.
   reference:
